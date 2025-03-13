@@ -32,8 +32,8 @@ class MainApp(MDApp):
 
     def build(self):
         self.token='BTCUSDT'
-        self.api_key='YhOJXxZqbaP7PzuXwdNNxMbXLpyuDrMAFmuonp7qvuWpxYhMPOvZr08gHGlD2F7I'
-        self.api_secret='16qZzduO2JV7L1nGtyO0OidcGl1QJXABWv7vUaBVN9Oiyi5FAp5OpoKGdq1KNJAZ'
+        self.api_key='ia4ubTdw9dPZFcMnco6xCcysencIjfKCpWvzbAaUjGxhhRPwA5A2sPGuulZWT2ya'
+        self.api_secret='7qh37C4cxLrxnfx4rbeUt3m0l9gxngMXuNbQbENtAn9qQY7dZ1N0v0MnYqaTAAhF'
         self.client = Client(self.api_key, self.api_secret)
         self.grafico1 = self.root.get_screen('first').ids.graf1
         self.ejecutar(0)
